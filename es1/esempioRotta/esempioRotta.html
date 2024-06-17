@@ -1,11 +1,18 @@
 <div class="arx-esempioRotta">
-    <label for="aoo-select">Scegli una aoo:</label>
+    <label for="aoo-select">Choose a aoo:</label>
 
     <select name="aoos" id="aoo-select" ng-model="aooSelected">
-        <option ng-repeat="aoo in aoos">
-            {{'????'}}
+        <option ng-repeat="aoo in aoos" ng-value="aoo.code" >
+            {{aoo.name}}
         </option>        
     </select>	
+    <div>selected: {{aooSelected}}</div>
+    <div class="es-container">
+        <div ng-repeat="cl in classes"  class="es-row">        
+            <div class="es-key" ng-click="show(cl)" >{{cl.key}}</div>
+            <div>{{cl.description}}</div>
+        </div>
+    </div>
 </div>
 <link rel="stylesheet" href="./Scripts/plugins/esempioRotta/esempioRotta.css">
 <script type="text/ng-template" id="myModalContent.html">

@@ -17,7 +17,12 @@ const routeFactory = (PluginRoute: IPluginRoute) => {
     // OPTIONAL settings. These objects require the following properties: name, description, defaultValue and type.
   // Allowed types are: string, number, boolean or date (Date type is a string UTC ISO 8601 (https://it.wikipedia.org/wiki/ISO_8601) format
 	const customSettings: ICustomSettings[] = [
-	//{name: '', description: '', defaultValue:'', type: 'string'},
+        {
+            name: 'viewId',
+            description: 'viewId',
+            defaultValue: 'e4c31fa0931a4fdc9445e092fa4de513',
+            type: 'string',
+          },
 	];
 
     // OPTIONAL settings for specific users. These objects require the following properties: name, description, defaultValue and type.

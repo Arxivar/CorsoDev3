@@ -1,17 +1,34 @@
-
-<div class="arx-rottaCliente">    
-    <div class="from-container">
-        <div class="from-row">
-            <h1>Cliente</h1>
-        </div>
-        <div class="from-row">
-            <div class="from-field">Id</div>
-            <div class="from-value">{{'id value'}}</div>            
-        </div>        
+<div class="arx-rottaCliente">
+  <div class="from-container" ng-show="from">
+    <div class="from-row">
+      <h1>Report Cliente</h1>
     </div>
+    <div class="from-row">
+      <div class="from-field">Id</div>
+      <div class="from-value">{{from.id}}</div>
+    </div>
+    <div class="from-row">
+      <div class="from-field">description</div>
+      <div class="from-value">{{from.description}}</div>
+    </div>
+    <div class="from-row">
+      <div class="from-field">address</div>
+      <div class="from-value">{{from.address}}</div>
+    </div>
+    <div class="from-row">
+      <a href="{{url}}">Offerte Search</a>
+    </div>
+    <div class="from-row">
+      <a href="{{urlView}}">Offerte View</a>
+    </div>
+    <div class="from-row">
+      <a href="{{urlProfile}}">Profile</a>
+    </div>
+  </div>
 </div>
 
-<link rel="stylesheet" type="text/css" href="./Scripts/plugins/rottaCliente/rottaCliente.css">
-
-
-
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="./Scripts/plugins/rottaCliente/rottaCliente.css"
+/>

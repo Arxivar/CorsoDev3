@@ -3,14 +3,16 @@
 }
 
 .arx-rottaCliente .from-container{
-    
+    display: flex;
+    flex-direction: column;
 }
 .arx-rottaCliente .from-row{
-    
+    display: flex;
+    flex-direction: row;
 }
 
 .arx-rottaCliente .from-field{
-    
+    min-width: 100px;
 }
 .arx-rottaCliente .from-value{
     

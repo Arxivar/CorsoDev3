@@ -12,3 +12,16 @@
     font-size: 0.9em;
     padding: 2px 5px;
 }
+
+.arx-esempioRotta .es-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.arx-esempioRotta .es-row{
+    display: flex;
+    flex-direction: row;
+}
+.arx-esempioRotta .es-key{
+    flex: 0 0 30%;
+}
