@@ -1,0 +1,14 @@
+.arx-esempioRotta{
+
+}
+
+.arx-esempioRotta label {
+    font-family: sans-serif;
+    font-size: 1em;
+    padding-right: 10px;
+}
+
+.arx-esempioRotta select {
+    font-size: 0.9em;
+    padding: 2px 5px;
+}
